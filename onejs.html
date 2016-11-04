@@ -1,0 +1,28 @@
+<html>
+<head>
+<h1> Hello </h1>
+</head>
+<body>
+This is my page.
+<p id="demo"> New para
+</p>
+<p id="demo1"> Next para (but this will also change)
+</p>
+<button type="button" onclick = myf()> 
+Click on me 
+</button>
+
+<script>
+function myf()
+{
+var y = 7;
+
+document.getElementById("demo").innerHTML = y ;
+document.getElementById("demo1").innerHTML = y+2 ;
+//return y+1 ; value of this function is returning but can not display on the page as we are not putting .innerHTML anywhere.
+}
+
+</script>
+
+</body> 
+</html>
